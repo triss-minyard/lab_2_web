@@ -1,4 +1,4 @@
-/* общие настройки страницы */
+/* Основные настройки страницы */
 
 body {
     margin: 0;
@@ -7,14 +7,14 @@ body {
     color: #e2eaf6;
 }
 
-/* oбщий блок*/
+/* Общий блок */
 
 .content {
     display: flex;
     margin: 30px;
 }
 
-/* левая карточка с информацией */
+/* Левая карточка */
 
 .content-left {
     width: 65%;
@@ -22,10 +22,11 @@ body {
     color: #e2eaf6;
     margin: 10px;
     padding: 20px;
+    border: 1px solid #29486d;
     border-radius: 10px;
 }
 
-/* правая карточка с изображением */
+/* Правая карточка */
 
 .content-right {
     width: 35%;
@@ -33,33 +34,32 @@ body {
     color: #e2eaf6;
     margin: 10px;
     padding: 20px;
+    border: 1px solid #29486d;
     border-radius: 10px;
-    text-align: center;
 }
 
-/* заголовки */
+/* Заголовки */
 
 h1 {
     color: #eaf4ff;
-    text-align: center;
 }
 
 h2 {
     color: #69aaff;
 }
 
-/* списки */
+/* Списки */
 
 .styled-list {
     margin: 10px;
-    padding-left: 25px;
+    padding: 10px;
 }
 
 .styled-list li {
     margin: 8px;
 }
 
-/* цитата */
+/* Цитата */
 
 blockquote {
     background: #09182b;
@@ -69,7 +69,7 @@ blockquote {
     border-left: 4px solid #69aaff;
 }
 
-/* ссылка */
+/* Ссылка */
 
 .button-link {
     background: #69aaff;
@@ -79,11 +79,11 @@ blockquote {
     border-radius: 8px;
 }
 
-/* изображение */
+/* Изображение */
 
 .scooby-image {
     width: 100%;
     border: 2px solid #29486d;
     border-radius: 10px;
-    margin: 10px 0;
+    margin: 10px;
 }
