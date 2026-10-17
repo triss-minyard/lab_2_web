@@ -1,0 +1,89 @@
+/* общие настройки страницы */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #071426;
+    color: #e2eaf6;
+}
+
+/* oбщий блок*/
+
+.content {
+    display: flex;
+    margin: 30px;
+}
+
+/* левая карточка с информацией */
+
+.content-left {
+    width: 65%;
+    background: #122945;
+    color: #e2eaf6;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* правая карточка с изображением */
+
+.content-right {
+    width: 35%;
+    background: #17385e;
+    color: #e2eaf6;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* заголовки */
+
+h1 {
+    color: #eaf4ff;
+    text-align: center;
+}
+
+h2 {
+    color: #69aaff;
+}
+
+/* списки */
+
+.styled-list {
+    margin: 10px;
+    padding-left: 25px;
+}
+
+.styled-list li {
+    margin: 8px;
+}
+
+/* цитата */
+
+blockquote {
+    background: #09182b;
+    color: #d9eaff;
+    padding: 15px;
+    margin: 10px;
+    border-left: 4px solid #69aaff;
+}
+
+/* ссылка */
+
+.button-link {
+    background: #69aaff;
+    color: #071426;
+    padding: 10px;
+    border: 1px solid #3478c7;
+    border-radius: 8px;
+}
+
+/* изображение */
+
+.scooby-image {
+    width: 100%;
+    border: 2px solid #29486d;
+    border-radius: 10px;
+    margin: 10px 0;
+}
